@@ -4,7 +4,7 @@
 <div align="center">
   <h3>
     🚀 Live Demo: 
-    <a href="#" target="_blank">
+    <a href="https://kishan90909.github.io/QR-Code-Generator/" target="_blank">
       View Application Here
     </a>
   </h3>
