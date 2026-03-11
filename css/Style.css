@@ -1,0 +1,171 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Main layout container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Left QR image section */
+.image-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 220px;
+}
+
+/* Form section */
+.form-section {
+    width: 40%;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4f5bd5;
+}
+
+/* QR result section */
+.result-section {
+    width: 30%;
+    text-align: center;
+}
+
+#qrcode {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#spinner {
+    display: none;
+    margin-top: 15px;
+}
+
+#download {
+    margin-top: 10px;
+}
+
+/* Download button */
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.download-btn:hover {
+    background: #27ae60;
+}
+
+/* Stats section */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stat-box h3 {
+    color: #667eea;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+footer p {
+    letter-spacing: 0.5px;
+}

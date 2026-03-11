@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>QR Code Generator</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h2>QR Code Generator</h2>
+    <p>Simple • Fast • Free</p>
+  </header>
+
+  <div class="container">
+    <!-- IMAGE -->
+    <div class="image-section">
+      <img src="img/qr-code.svg" alt="QR Code Image">
+    </div>
+    <!-- FORM -->
+    <div class="form-section">
+      <h2>Create QR Code</h2>
+      <form id="generate-form">
+        <input id="url" type="url" placeholder="Enter Website URL" required>
+        <select id="size">
+          <option value="100">100 x 100</option>
+          <option value="200" selected>200 x 200</option>
+          <option value="300">300 x 300</option>
+        </select>
+
+        <button type="submit" id="generate-btn">Generate QR Code</button>
+        <br><br>
+        <button type="button" id="reset-btn" style="display:none;">Re-Generate QR Code</button>
+      </form>
+    </div>
+
+    <!-- RESULT -->
+    <div class="result-section" id="result-section" style="display:none;">
+      <h3>QR Result</h3>
+      <div id="spinner">Loading...</div>
+      <div id="qrcode"></div>
+      <div id="download"></div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stat-box">
+      <h3>100% Free</h3>
+      <p>No signup required</p>
+
+    </div>
+    <div class="stat-box">
+      <h3>Instant</h3>
+      <p>Generate QR codes instantly</p>
+    </div>
+
+    <div class="stat-box">
+      <h3>Download</h3>
+      <p>Save QR code as image</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 QR Code Generator • Built with HTML, CSS & JavaScript</p>
+    <p>• Developed By Kishan Patel</p>
+  </footer>
+
+</body>
+
+</html>
